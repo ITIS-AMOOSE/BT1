@@ -1,0 +1,5 @@
+model,accuracy,precision_toxic,recall_toxic,f1_toxic,macro_f1,tp,fp,fn,tn
+Dummy Baseline (Đoán 0),93.52,0.0,0.0,0.0,48.33,0,0,60,866
+TF-IDF + Linear SVM (Baseline v2),94.49,68.0,28.33,40.0,68.56,17,8,43,858
+Word+Char SVM Tốt nhất (v2),94.6,62.5,41.67,50.0,73.57,25,15,35,851
+PhoBERT v2 (Tau = 0.90 SOTA),94.82,66.67,40.0,50.0,73.63,24,12,36,854

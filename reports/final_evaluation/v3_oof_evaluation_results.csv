@@ -1,0 +1,5 @@
+version,model,accuracy,recall_toxic,precision_toxic,f1_toxic,macro_f1,tp,fp,fn,tn
+V3 (5-Fold CV),BoW + Linear SVM,93.85,23.45,56.52,33.14,64.96,117,90,382,7080
+V3 (5-Fold CV),TF-IDF + Linear SVM,93.82,26.85,55.14,36.12,66.44,134,109,365,7061
+V3 (5-Fold CV),Word+Char SVM (OOF 5 Folds),93.6,34.67,51.18,41.34,68.98,173,165,326,7005
+V3 (5-Fold CV),PhoBERT v2 (OOF 5 Folds SOTA),93.17,44.89,47.36,46.09,71.22,224,249,275,6921

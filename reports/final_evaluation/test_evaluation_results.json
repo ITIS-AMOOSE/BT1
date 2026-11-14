@@ -1,0 +1,50 @@
+[
+  {
+    "model": "Dummy Baseline (Đoán 0)",
+    "accuracy": 93.52,
+    "precision_toxic": 0.0,
+    "recall_toxic": 0.0,
+    "f1_toxic": 0.0,
+    "macro_f1": 48.33,
+    "tp": 0,
+    "fp": 0,
+    "fn": 60,
+    "tn": 866
+  },
+  {
+    "model": "TF-IDF + Linear SVM (Baseline v2)",
+    "accuracy": 94.49,
+    "precision_toxic": 68.0,
+    "recall_toxic": 28.33,
+    "f1_toxic": 40.0,
+    "macro_f1": 68.56,
+    "tp": 17,
+    "fp": 8,
+    "fn": 43,
+    "tn": 858
+  },
+  {
+    "model": "Word+Char SVM Tốt nhất (v2)",
+    "accuracy": 94.6,
+    "precision_toxic": 62.5,
+    "recall_toxic": 41.67,
+    "f1_toxic": 50.0,
+    "macro_f1": 73.57,
+    "tp": 25,
+    "fp": 15,
+    "fn": 35,
+    "tn": 851
+  },
+  {
+    "model": "PhoBERT v2 (Tau = 0.90 SOTA)",
+    "accuracy": 94.82,
+    "precision_toxic": 66.67,
+    "recall_toxic": 40.0,
+    "f1_toxic": 50.0,
+    "macro_f1": 73.63,
+    "tp": 24,
+    "fp": 12,
+    "fn": 36,
+    "tn": 854
+  }
+]

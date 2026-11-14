@@ -1,0 +1,67 @@
+[
+  {
+    "model": "BoW + Naive Bayes",
+    "tn": 1169,
+    "fp": 25,
+    "fn": 62,
+    "tp": 21,
+    "accuracy": 0.9318715740015662,
+    "precision_toxic": 0.45652173913043476,
+    "recall_toxic": 0.25301204819277107,
+    "f1_toxic": 0.32558139534883723,
+    "macro_f1": 0.6448525533445217,
+    "basis": "V1 validation metrics in final_evaluation/results.json"
+  },
+  {
+    "model": "TF-IDF + Naive Bayes",
+    "tn": 1193,
+    "fp": 1,
+    "fn": 82,
+    "tp": 1,
+    "accuracy": 0.9350039154267815,
+    "precision_toxic": 0.5,
+    "recall_toxic": 0.012048192771084338,
+    "f1_toxic": 0.023529411764705882,
+    "macro_f1": 0.4949562814190075,
+    "basis": "V1 validation metrics in final_evaluation/results.json"
+  },
+  {
+    "model": "BoW + SVM",
+    "tn": 1156,
+    "fp": 38,
+    "fn": 56,
+    "tp": 27,
+    "accuracy": 0.9263899765074393,
+    "precision_toxic": 0.4153846153846154,
+    "recall_toxic": 0.3253012048192771,
+    "f1_toxic": 0.36486486486486486,
+    "macro_f1": 0.6628979353418256,
+    "basis": "V1 validation metrics in final_evaluation/results.json"
+  },
+  {
+    "model": "TF-IDF + SVM",
+    "tn": 1097,
+    "fp": 97,
+    "fn": 38,
+    "tp": 45,
+    "accuracy": 0.894283476898982,
+    "precision_toxic": 0.31690140845070425,
+    "recall_toxic": 0.5421686746987951,
+    "f1_toxic": 0.4,
+    "macro_f1": 0.6710176041219408,
+    "basis": "V1 validation metrics in final_evaluation/results.json"
+  },
+  {
+    "model": "PhoBERT V1 tại ngưỡng 0,52",
+    "tn": 1138,
+    "fp": 56,
+    "fn": 46,
+    "tp": 37,
+    "accuracy": 0.9201252936570086,
+    "precision_toxic": 0.3978494623655914,
+    "recall_toxic": 0.4457831325301205,
+    "f1_toxic": 0.42045454545454547,
+    "macro_f1": 0.6887806789509902,
+    "basis": "REPORT V1 confusion counts"
+  }
+]
